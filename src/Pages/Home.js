@@ -7,7 +7,7 @@ export default class Home extends Component {
     return (
       <div>
         <h1>Commit 1</h1>
-        <h2>Commit 2</h2>
+        <h1>Commit 2</h1>
         <h1>Home</h1>
         home Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
         minus unde voluptas. Placeat, nulla nemo dolorum nisi sit vel nobis
