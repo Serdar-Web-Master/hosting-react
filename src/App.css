@@ -1,0 +1,62 @@
+.header {
+  background-color: rgb(58, 245, 129);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.logo {
+  width: 40px;
+}
+
+.navig {
+  position: absolute;
+  margin: 0px 10px 0px 10px;
+}
+.nav {
+  display: flex;
+  /* padding: 0px 0px 0px 400px; */
+  margin: 20px 0px 15px 350px;
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    margin: 0px 0px 0px 100px;
+  }
+}
+
+.ul {
+  display: flex;
+  text-decoration: none;
+}
+li {
+  padding-right: 20px;
+  list-style-type: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.headerseach {
+  align-items: center;
+  margin-top: 1%;
+  display: none;
+}
+.form {
+  display: flex;
+
+  margin: 1% 10px 0px 0px;
+}
+
+.bt-seach {
+  margin-left: 5px;
+}
+h1 {
+  text-align: center;
+}
